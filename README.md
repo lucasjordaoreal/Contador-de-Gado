@@ -1,6 +1,5 @@
 🐄 Detecção de Gado com YOLO
-
- <!-- Você pode adicionar uma imagem ou banner aqui -->
+![drone](https://github.com/user-attachments/assets/a8d8c88c-5523-499c-a5cf-59f0dab9df9a)
 
 Este é um projeto de aplicação web que utiliza o modelo YOLO (You Only Look Once) para detectar e contar gados em imagens. O aplicativo permite que os usuários façam upload de imagens, que são então processadas pelo modelo para identificar o número de gados presentes na imagem.
 
