@@ -1,3 +1,5 @@
 [build]
-# Dependendo do seu framework, use a linha correta para iniciar seu servidor
-start = "python app.py"
+start = "flask run --host=0.0.0.0"
+
+[env]
+FLASK_APP = "app.py"  # Substitua 'app.py' pelo seu arquivo principal
