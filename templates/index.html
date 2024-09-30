@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem de Gados</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/design.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Contagem de Gados</h1>
+        
+        <form method="post" enctype="multipart/form-data" class="upload-form">
+            <input type="file" name="file" accept="image/*" class="file-input">
+            <button type="submit" class="btn">Enviar Imagem</button>
+        </form>
+
+        {% if filename %}
+            <h2 class="result-title">Gados Identificados:</h2>
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="Imagem Original" class="image">
+            </div>
+            <p class="result-text">Total de gados identificados: <span class="gado-count">{{ total_gados }}</span></p>
+        {% endif %}
+    </div>
+</body>
+</html>
