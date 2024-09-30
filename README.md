@@ -24,6 +24,7 @@ Werkzeug: Para manipulação segura de arquivos.
 
 
 📁 Estrutura do Projeto
+
 ├── app.py                  
 ├── requirements.txt         
 ├── /static                  
