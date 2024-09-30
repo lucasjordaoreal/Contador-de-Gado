@@ -102,10 +102,14 @@ pip install -r requirements.txt
 
 Imagem Original: 
 
+
+![60120b93d6dee](https://github.com/user-attachments/assets/840ac7e0-2f0a-40a3-b2b4-ac2d024e15c7)
+
+
 Imagem Processada com Detecção: 
 
-> Exemplo de uma imagem com gados detectados.
 
+![drone](https://github.com/user-attachments/assets/a8d8c88c-5523-499c-a5cf-59f0dab9df9a)
 
 
 
