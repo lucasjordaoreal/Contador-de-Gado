@@ -1,91 +1,115 @@
-Detecção de Gado com YOLO
+🐄 Detecção de Gado com YOLO
 
-Esta é uma aplicação web desenvolvida em Python que utiliza Flask e o modelo de detecção de objetos YOLO (You Only Look Once) para identificar e contar gados em imagens enviadas pelos usuários.
-Funcionalidades
+ <!-- Você pode adicionar uma imagem ou banner aqui -->
 
-    Upload de imagens para detecção de gados.
-    Análise em tempo real usando o modelo YOLO.
-    Exibição da imagem original e da imagem processada com as detecções.
-    Contagem total de gados identificados.
+Este é um projeto de aplicação web que utiliza o modelo YOLO (You Only Look Once) para detectar e contar gados em imagens. O aplicativo permite que os usuários façam upload de imagens, que são então processadas pelo modelo para identificar o número de gados presentes na imagem.
 
-Tecnologias Utilizadas
+🚀 Funcionalidades
 
-    Flask: Framework web para Python.
-    YOLO (Ultralytics): Modelo de detecção de objetos.
-    Werkzeug: Biblioteca para manipulação segura de arquivos.
+Upload de Imagens: Envie imagens para o sistema identificar gados.
 
-Estrutura do Projeto
-/Contador-de-Gado
+Detecção em Tempo Real: Utiliza YOLO para processar a imagem e contar gados.
+
+Exibição dos Resultados: Mostra a imagem original, a imagem processada e a contagem total de gados.
+
+Armazenamento de Imagens: As imagens originais e processadas são armazenadas no servidor.
+
+
+🛠️ Tecnologias Utilizadas
+
+Flask: Framework web para Python.
+
+YOLO (Ultralytics): Modelo de detecção de objetos pré-treinado.
+
+Werkzeug: Para manipulação segura de arquivos.
+
+
+📁 Estrutura do Projeto
+
+/ContadorDeGado
 │
-├── app.py                   # Arquivo principal do Flask
-├── requirements.txt         # Dependências do projeto
-├── /static                  # Diretório para arquivos estáticos
-│   ├── /uploads             # Diretório para imagens enviadas
-│   └── /style               # Diretório para arquivos CSS
-│       └── design.css       # Seu arquivo CSS
+├── app.py                  
+├── requirements.txt         
+├── /static                  
+│   ├── /uploads            
+│   └── /style              
+│       └── design.css      
 │
-├── /templates               # Diretório para arquivos de template
-│   └── index.html           # Seu arquivo de template HTML
+├── /templates               
+│   └── index.html           
 │
-└── /runs                    # Diretório para resultados do modelo YOLO
-    ├── /detect              # Diretório para detecções
-    │   ├── /train2          # Diretório do treinamento
-    │   │   └── /weights     # Pesos do modelo
-    │   └── /predictX        # Resultados das predições
+└── /runs                   
+    ├── /detect              
+    └── /train2             
+
+🔧 Como Inicializar o Projeto
 
 Pré-requisitos
 
-Antes de iniciar o projeto, você precisará ter o Python e o pip instalados em sua máquina.
+Você precisará ter Python instalado. Recomendo também o uso de um ambiente virtual para gerenciar as dependências do projeto.
 
-Como Inicializar o Projeto
+Passo a Passo
 
-    Clone o Repositório
+1. Clone o repositório
 
-    Se você tiver o repositório em um serviço de controle de versão, clone-o usando o seguinte comando:
+git clone https://github.com/seu_usuario/seu_projeto.git
+cd seu_projeto
 
-    bash
 
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DA_PASTA>
+2. Crie e ative um ambiente virtual
 
-Crie um Ambiente Virtual
-
-É uma boa prática usar um ambiente virtual para gerenciar as dependências do projeto. Você pode criar um usando:
-
-bash
+No Windows:
 
 python -m venv venv
-
-Ative o Ambiente Virtual
-
-    No Windows:
-
-    bash
-
 venv\Scripts\activate
 
 No macOS/Linux:
 
-bash
+python3 -m venv venv
+source venv/bin/activate
 
-    source venv/bin/activate
 
-Instale as Dependências
 
-Use o arquivo requirements.txt para instalar as dependências necessárias:
-
-bash
+3. Instale as dependências
 
 pip install -r requirements.txt
 
-Inicie o Servidor Flask
 
-Execute o seguinte comando para iniciar a aplicação:
-
-bash
+4. Inicie o servidor
 
 python app.py
 
-Acesse a Aplicação
 
-Abra seu navegador e acesse http://127.0.0.1:5000 para usar a aplicação.
+5. Acesse a aplicação
+
+Abra seu navegador e vá para http://127.0.0.1:5000.
+
+
+
+📦 Dependências
+
+As principais bibliotecas usadas neste projeto incluem:
+
+Flask
+
+YOLO (Ultralytics)
+
+Werkzeug
+
+
+Para instalar todas as dependências, use o comando:
+
+pip install -r requirements.txt
+
+🖼️ Demonstração
+
+Imagem Original: 
+
+Imagem Processada com Detecção: 
+
+> Exemplo de uma imagem com gados detectados.
+
+
+
+
+
