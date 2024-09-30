@@ -1,0 +1,3 @@
+[build]
+# Dependendo do seu framework, use a linha correta para iniciar seu servidor
+start = "python app.py"
