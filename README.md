@@ -55,20 +55,22 @@ Passo a Passo
 
 1. Clone o repositório
 
-git clone https://github.com/lucasjordaoreal/Contador-de-Gado.git
+        git clone https://github.com/lucasjordaoreal/Contador-de-Gado.git
 
-cd .\Contador-de-Gado\
+        cd .\Contador-de-Gado\
 
 
 2. Crie e ative um ambiente virtual
 
 No Windows:
-python -m venv venv
-venv\Scripts\activate
+
+    python -m venv venv
+    venv\Scripts\activate
 
 No macOS/Linux:
-python3 -m venv venv
-source venv/bin/activate
+
+    python3 -m venv venv
+    source venv/bin/activate
 
 
 
@@ -84,7 +86,9 @@ source venv/bin/activate
 
 5. Acesse a aplicação
 
-    Abra seu navegador e vá para http://127.0.0.1:5000.
+    Abra seu navegador e vá para
+
+       http://127.0.0.1:5000.
 
 
 
