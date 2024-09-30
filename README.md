@@ -52,8 +52,8 @@ Passo a Passo
 
 1. Clone o repositório
 
-git clone https://github.com/seu_usuario/seu_projeto.git
-cd seu_projeto
+git clone https://github.com/lucasjordaoreal/Contador-de-Gado.git
+cd Contador de Gado
 
 
 2. Crie e ative um ambiente virtual
