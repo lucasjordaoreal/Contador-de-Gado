@@ -63,12 +63,10 @@ cd .\Contador-de-Gado\
 2. Crie e ative um ambiente virtual
 
 No Windows:
-
 python -m venv venv
 venv\Scripts\activate
 
 No macOS/Linux:
-
 python3 -m venv venv
 source venv/bin/activate
 
@@ -76,17 +74,17 @@ source venv/bin/activate
 
 3. Instale as dependências
 
-pip install -r requirements.txt
+        pip install -r requirements.txt
 
 
 4. Inicie o servidor
 
-python app.py
+        python app.py
 
 
 5. Acesse a aplicação
 
-Abra seu navegador e vá para http://127.0.0.1:5000.
+    Abra seu navegador e vá para http://127.0.0.1:5000.
 
 
 
@@ -103,7 +101,7 @@ Werkzeug
 
 Para instalar todas as dependências, use o comando:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 🖼️ Demonstração
 
