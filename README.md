@@ -26,7 +26,7 @@ Werkzeug: Para manipulação segura de arquivos.
 📁 Estrutura do Projeto
 
 /ContadorDeGado
-│
+
 ├── app.py                  
 ├── requirements.txt         
 ├── /static                  
