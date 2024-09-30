@@ -5,7 +5,7 @@ import shutil
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = '/static/uploads'
+app.config['UPLOAD_FOLDER'] = 'static/uploads'
 
 # Carrega o modelo treinado
 model = YOLO('runs//detect//train//weights//best.pt')
