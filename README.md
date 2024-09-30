@@ -1,7 +1,4 @@
-![Captura de tela 2024-09-30 182010](https://github.com/user-attachments/assets/b6c78737-6eea-4f47-adfe-198cfa3c5463)
-
-
-![Captura de tela 2024-09-30 182025](https://github.com/user-attachments/assets/8f59a3fb-7878-46c8-b8e2-22eb2c0e2f0a)
+![demo](https://github.com/user-attachments/assets/ead07a7f-bd37-4fb5-ae43-1487b1fac1e4)
 
 
 ![drone](https://github.com/user-attachments/assets/a8d8c88c-5523-499c-a5cf-59f0dab9df9a)
