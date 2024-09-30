@@ -1,5 +1,0 @@
-[build]
-start = "python app.py"
-
-[env]
-FLASK_APP = "app.py"  # Substitua 'app.py' pelo seu arquivo principal
