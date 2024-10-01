@@ -34,7 +34,7 @@ Este é um projeto de aplicação web que utiliza o modelo YOLO (You Only Look O
 │
 └── /runs                   
     ├── /detect              
-    └── /train2             
+    └── /train             
 ```
 
 ## 🔧 Como Inicializar o Projeto
